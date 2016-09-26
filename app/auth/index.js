@@ -1,6 +1,3 @@
-/**
- * Created by philipbalo on 03.08.16.
- */
 var jwt = require('jsonwebtoken'); // used to create, sign, and verify tokens
 var config = require('./../../config'); // get our config file
 

@@ -6,7 +6,6 @@ module.exports = function (app) {
         .post(signupController.newUser)
         .get(signupController.allUsers);
 
-
     app.route('/user/:user_id')
         .get(signupController.findOneUser);
 
